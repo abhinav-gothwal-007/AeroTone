@@ -6,6 +6,9 @@ build/
 DerivedData/
 *.xcuserstate
 
+# Packaged release artifacts (published to GitHub Releases, not committed)
+dist/
+
 # Xcode user-specific data
 xcuserdata/
 *.xcscmblueprint

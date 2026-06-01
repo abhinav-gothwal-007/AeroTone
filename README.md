@@ -33,10 +33,31 @@ short hops are quick sessions and long-haul flights are deep-focus blocks.
 ## Requirements
 
 - **macOS 26 (Tahoe)** or later
-- **Xcode 26** or later
+- **Xcode 26** or later (only if building from source)
 
 The app targets macOS 26 because it uses the Liquid Glass design system. The globe also
 requires a network connection to load Apple Maps imagery.
+
+## Download
+
+Grab the latest **`AeroTone-x.y.z.dmg`** from the
+[Releases](../../releases) page, open it, and drag **AeroTone** into Applications.
+
+> **First launch:** AeroTone is ad-hoc signed (not notarized through an Apple Developer
+> account), so macOS Gatekeeper will warn on first open. Either **right-click the app →
+> Open** and confirm, or run:
+> ```sh
+> xattr -dr com.apple.quarantine /Applications/AeroTone.app
+> ```
+> You only need to do this once.
+
+### Install via Homebrew
+
+```sh
+brew install --cask abhinav-gothwal-007/aerotone/aerotone --no-quarantine
+```
+
+(`--no-quarantine` skips the Gatekeeper prompt above, since the app isn't notarized.)
 
 ## Build & run
 
@@ -56,6 +77,16 @@ developer account is required to run it on your own machine.
 - MapKit for the globe
 - AVAudioEngine for the synthesized ambient sound
 - No third-party dependencies
+
+## Releasing (maintainer)
+
+```sh
+scripts/package-dmg.sh 1.0.0   # build + package dist/AeroTone-1.0.0.dmg (prints sha256)
+scripts/release.sh     1.0.0   # the above + publish a GitHub Release + print the cask snippet
+```
+
+`scripts/release.sh` prints a ready-to-paste Homebrew cask (with version + sha256 filled
+in) for the `homebrew-aerotone` tap — see [packaging/aerotone.rb](packaging/aerotone.rb).
 
 ## Data
 
