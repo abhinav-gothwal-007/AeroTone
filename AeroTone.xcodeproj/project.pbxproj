@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB10000000000000000000B0 /* AeroToneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10000000000000000000B0 /* AeroToneApp.swift */; };
+		BB11000000000000000000B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11000000000000000000B1 /* ContentView.swift */; };
+		BB13000000000000000000B3 /* FlightSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13000000000000000000B3 /* FlightSession.swift */; };
+		BB14000000000000000000B4 /* FlightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14000000000000000000B4 /* FlightController.swift */; };
+		BB15000000000000000000B5 /* SkyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15000000000000000000B5 /* SkyBackground.swift */; };
+		BB16000000000000000000B6 /* GlassStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16000000000000000000B6 /* GlassStyle.swift */; };
+		BB1A000000000000000000BA /* ControlBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A000000000000000000BA /* ControlBar.swift */; };
+		BB20000000000000000000C0 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000000C0 /* Airport.swift */; };
+		BB21000000000000000000C1 /* FlightRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA21000000000000000000C1 /* FlightRoute.swift */; };
+		BB22000000000000000000C2 /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22000000000000000000C2 /* Seat.swift */; };
+		BB23000000000000000000C3 /* FlightPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23000000000000000000C3 /* FlightPlan.swift */; };
+		BB30000000000000000000D0 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA30000000000000000000D0 /* AppRouter.swift */; };
+		BB41000000000000000000E1 /* BoardingPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41000000000000000000E1 /* BoardingPassView.swift */; };
+		BB42000000000000000000E2 /* CabinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42000000000000000000E2 /* CabinView.swift */; };
+		BB44000000000000000000E4 /* Globe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44000000000000000000E4 /* Globe.swift */; };
+		BB50000000000000000000F0 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA50000000000000000000F0 /* WelcomePage.swift */; };
+		BB51000000000000000000F1 /* DestinationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51000000000000000000F1 /* DestinationPage.swift */; };
+		BB52000000000000000000F2 /* SeatSelectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52000000000000000000F2 /* SeatSelectionPage.swift */; };
+		BB53000000000000000000F3 /* BoardingPassPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53000000000000000000F3 /* BoardingPassPage.swift */; };
+		BB54000000000000000000F4 /* FlightPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA54000000000000000000F4 /* FlightPage.swift */; };
+		BB55000000000000000000F5 /* HomeAirportPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55000000000000000000F5 /* HomeAirportPage.swift */; };
+		BC03000000000000000000A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA03000000000000000000A3 /* Assets.xcassets */; };
+		BC04000000000000000000A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA04000000000000000000A4 /* Preview Assets.xcassets */; };
+		BC05000000000000000000A5 /* airports.csv in Resources */ = {isa = PBXBuildFile; fileRef = AA05000000000000000000A5 /* airports.csv */; };
+		BB60000000000000000000F6 /* AmbienceMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60000000000000000000F6 /* AmbienceMixer.swift */; };
+		BB61000000000000000000F7 /* AmbienceMixerPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA61000000000000000000F7 /* AmbienceMixerPanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA01000000000000000000A1 /* AeroTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AeroTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA02000000000000000000A2 /* AeroTone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AeroTone.entitlements; sourceTree = "<group>"; };
+		AA03000000000000000000A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA04000000000000000000A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA05000000000000000000A5 /* airports.csv */ = {isa = PBXFileReference; lastKnownFileType = text.csv; path = airports.csv; sourceTree = "<group>"; };
+		AA60000000000000000000F6 /* AmbienceMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbienceMixer.swift; sourceTree = "<group>"; };
+		AA61000000000000000000F7 /* AmbienceMixerPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbienceMixerPanel.swift; sourceTree = "<group>"; };
+		AA10000000000000000000B0 /* AeroToneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroToneApp.swift; sourceTree = "<group>"; };
+		AA11000000000000000000B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA13000000000000000000B3 /* FlightSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSession.swift; sourceTree = "<group>"; };
+		AA14000000000000000000B4 /* FlightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightController.swift; sourceTree = "<group>"; };
+		AA15000000000000000000B5 /* SkyBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBackground.swift; sourceTree = "<group>"; };
+		AA16000000000000000000B6 /* GlassStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassStyle.swift; sourceTree = "<group>"; };
+		AA1A000000000000000000BA /* ControlBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlBar.swift; sourceTree = "<group>"; };
+		AA20000000000000000000C0 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		AA21000000000000000000C1 /* FlightRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRoute.swift; sourceTree = "<group>"; };
+		AA22000000000000000000C2 /* Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seat.swift; sourceTree = "<group>"; };
+		AA23000000000000000000C3 /* FlightPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPlan.swift; sourceTree = "<group>"; };
+		AA30000000000000000000D0 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		AA41000000000000000000E1 /* BoardingPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPassView.swift; sourceTree = "<group>"; };
+		AA42000000000000000000E2 /* CabinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinView.swift; sourceTree = "<group>"; };
+		AA44000000000000000000E4 /* Globe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globe.swift; sourceTree = "<group>"; };
+		AA50000000000000000000F0 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		AA51000000000000000000F1 /* DestinationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationPage.swift; sourceTree = "<group>"; };
+		AA52000000000000000000F2 /* SeatSelectionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatSelectionPage.swift; sourceTree = "<group>"; };
+		AA53000000000000000000F3 /* BoardingPassPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPassPage.swift; sourceTree = "<group>"; };
+		AA54000000000000000000F4 /* FlightPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPage.swift; sourceTree = "<group>"; };
+		AA55000000000000000000F5 /* HomeAirportPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAirportPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD02000000000000000000A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC00000000000000000000A0 = {
+			isa = PBXGroup;
+			children = (
+				CC02000000000000000000A2 /* AeroTone */,
+				CC01000000000000000000A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC01000000000000000000A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA01000000000000000000A1 /* AeroTone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC02000000000000000000A2 /* AeroTone */ = {
+			isa = PBXGroup;
+			children = (
+				AA10000000000000000000B0 /* AeroToneApp.swift */,
+				AA11000000000000000000B1 /* ContentView.swift */,
+				CC03000000000000000000A3 /* Models */,
+				CC05000000000000000000A5 /* ViewModels */,
+				CC04000000000000000000A4 /* Views */,
+				AA03000000000000000000A3 /* Assets.xcassets */,
+				AA05000000000000000000A5 /* airports.csv */,
+				CC06000000000000000000A6 /* Preview Content */,
+				AA02000000000000000000A2 /* AeroTone.entitlements */,
+			);
+			path = AeroTone;
+			sourceTree = "<group>";
+		};
+		CC03000000000000000000A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA20000000000000000000C0 /* Airport.swift */,
+				AA21000000000000000000C1 /* FlightRoute.swift */,
+				AA22000000000000000000C2 /* Seat.swift */,
+				AA23000000000000000000C3 /* FlightPlan.swift */,
+				AA13000000000000000000B3 /* FlightSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC04000000000000000000A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC07000000000000000000A7 /* Pages */,
+				AA15000000000000000000B5 /* SkyBackground.swift */,
+				AA16000000000000000000B6 /* GlassStyle.swift */,
+				AA41000000000000000000E1 /* BoardingPassView.swift */,
+				AA42000000000000000000E2 /* CabinView.swift */,
+				AA44000000000000000000E4 /* Globe.swift */,
+				AA1A000000000000000000BA /* ControlBar.swift */,
+				AA61000000000000000000F7 /* AmbienceMixerPanel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC05000000000000000000A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA30000000000000000000D0 /* AppRouter.swift */,
+				AA14000000000000000000B4 /* FlightController.swift */,
+				AA60000000000000000000F6 /* AmbienceMixer.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC06000000000000000000A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA04000000000000000000A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC07000000000000000000A7 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				AA50000000000000000000F0 /* WelcomePage.swift */,
+				AA55000000000000000000F5 /* HomeAirportPage.swift */,
+				AA51000000000000000000F1 /* DestinationPage.swift */,
+				AA52000000000000000000F2 /* SeatSelectionPage.swift */,
+				AA53000000000000000000F3 /* BoardingPassPage.swift */,
+				AA54000000000000000000F4 /* FlightPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE01000000000000000000A1 /* AeroTone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL02000000000000000000A2 /* Build configuration list for PBXNativeTarget "AeroTone" */;
+			buildPhases = (
+				DD01000000000000000000A1 /* Sources */,
+				DD02000000000000000000A2 /* Frameworks */,
+				DD03000000000000000000A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AeroTone;
+			productName = AeroTone;
+			productReference = AA01000000000000000000A1 /* AeroTone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF01000000000000000000A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					EE01000000000000000000A1 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = CL01000000000000000000A1 /* Build configuration list for PBXProject "AeroTone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC00000000000000000000A0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 70;
+			productRefGroup = CC01000000000000000000A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE01000000000000000000A1 /* AeroTone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD03000000000000000000A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC04000000000000000000A4 /* Preview Assets.xcassets in Resources */,
+				BC03000000000000000000A3 /* Assets.xcassets in Resources */,
+				BC05000000000000000000A5 /* airports.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD01000000000000000000A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60000000000000000000F6 /* AmbienceMixer.swift in Sources */,
+				BB61000000000000000000F7 /* AmbienceMixerPanel.swift in Sources */,
+				BB10000000000000000000B0 /* AeroToneApp.swift in Sources */,
+				BB11000000000000000000B1 /* ContentView.swift in Sources */,
+				BB20000000000000000000C0 /* Airport.swift in Sources */,
+				BB21000000000000000000C1 /* FlightRoute.swift in Sources */,
+				BB22000000000000000000C2 /* Seat.swift in Sources */,
+				BB23000000000000000000C3 /* FlightPlan.swift in Sources */,
+				BB13000000000000000000B3 /* FlightSession.swift in Sources */,
+				BB30000000000000000000D0 /* AppRouter.swift in Sources */,
+				BB14000000000000000000B4 /* FlightController.swift in Sources */,
+				BB15000000000000000000B5 /* SkyBackground.swift in Sources */,
+				BB16000000000000000000B6 /* GlassStyle.swift in Sources */,
+				BB41000000000000000000E1 /* BoardingPassView.swift in Sources */,
+				BB42000000000000000000E2 /* CabinView.swift in Sources */,
+				BB44000000000000000000E4 /* Globe.swift in Sources */,
+				BB1A000000000000000000BA /* ControlBar.swift in Sources */,
+				BB50000000000000000000F0 /* WelcomePage.swift in Sources */,
+				BB55000000000000000000F5 /* HomeAirportPage.swift in Sources */,
+				BB51000000000000000000F1 /* DestinationPage.swift in Sources */,
+				BB52000000000000000000F2 /* SeatSelectionPage.swift in Sources */,
+				BB53000000000000000000F3 /* BoardingPassPage.swift in Sources */,
+				BB54000000000000000000F4 /* FlightPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFP1000000000000000000A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFP2000000000000000000A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFT1000000000000000000A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AeroTone/AeroTone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AeroTone/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AeroTone;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aerotone.AeroTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFT2000000000000000000A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AeroTone/AeroTone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AeroTone/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AeroTone;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aerotone.AeroTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CL01000000000000000000A1 /* Build configuration list for PBXProject "AeroTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFP1000000000000000000A1 /* Debug */,
+				CFP2000000000000000000A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CL02000000000000000000A2 /* Build configuration list for PBXNativeTarget "AeroTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFT1000000000000000000A3 /* Debug */,
+				CFT2000000000000000000A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF01000000000000000000A1 /* Project object */;
+}
