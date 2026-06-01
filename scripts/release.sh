@@ -15,7 +15,7 @@ TAG="v$VERSION"
 
 "$ROOT/scripts/package-dmg.sh" "$VERSION"
 
-echo "▶ Creating GitHub release $TAG…"
+echo "▶ Creating GitHub release ${TAG}…"
 gh release create "$TAG" "$DMG" \
   --title "AeroTone $VERSION" \
   --notes "AeroTone $VERSION — a macOS menu-bar focus timer themed as a flight.
